@@ -1,0 +1,25 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.5rem;
+    height: 3.25rem;
+    border: solid 2px #526EB7;
+    border-radius: 33px;
+    font-size: 1rem;
+    color: #526EB7;
+}
+
+.button:hover {
+    border-color: #7B97DD;
+    color: #7B97DD;
+    box-shadow: 1px 1px 7px #526EB780;
+}
+
+@media (min-width: 768px) {
+    .button {
+        width: 9.5rem;
+        height: 4.125rem;
+        font-size: 1.125rem;
+    }
+} 

@@ -1,0 +1,52 @@
+.detail {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 6.5rem;
+}
+
+.detail p {
+     font-family: 'Asap', sans-serif;
+}
+
+.name {
+    margin-bottom: 1rem;
+    font-family: 'DM Serif Display', serif;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 6rem;
+}
+
+.descriptionItem {
+    margin: 0 2rem 4rem;
+}
+
+.button {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: flex-end;
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+    .detail {
+        width: 42.4rem;
+    }
+    .descriptionItem {
+        margin: 0;
+    }
+    .button {
+        margin-right: 0;
+    }
+} 

@@ -1,0 +1,48 @@
+.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: #FAF7EF;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.navRight {
+    display: flex;
+    gap: 2rem;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    color: #5D718E;
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #5D718E;
+}
+
+.text:hover {
+    color: #526EB7;
+}
+
+@media (min-width: 768px) {
+    .navRight {
+        gap: 5rem;
+    }
+    .text {
+        font-size: 1.125rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #5D718E;
+    }
+} 
