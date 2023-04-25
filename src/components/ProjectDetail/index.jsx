@@ -8,10 +8,11 @@ const ProjectDetail = ({ project }) => {
         <div className={styles.detail}>
             <h1 className={styles.name}>{project.name}</h1>
             <p style={{color: '#5D718ED9'}}>{project.description}</p>
-            <video width="100%" src={project.video}
+            <div style={{width: "100%", height:"0px",position: "relative",paddingBottom:"56.250%", marginTop: '2.4rem', marginBottom: '2rem'}}><iframe src={project.video} width="100%" height="100%" allowFullScreen allow="autoplay" style={{width:"100%",height:"100%",position:"absolute",left:"0px",top:"0px",overflow:"hidden", border: "none"}}></iframe></div>
+            {/* <video width="100%" src={project.video}
                 autoPlay loop controls muted playsInline 
                 style={{marginTop: '2.4rem', marginBottom: '2rem'}}
-            />
+            /> */}
             <div className={styles.info}>
                 <p>{project.year}</p>
                 <p style={{fontWeight: 'bold'}}>{project.language}</p>

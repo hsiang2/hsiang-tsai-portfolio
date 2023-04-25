@@ -18,7 +18,7 @@ const AboutDetail = () => {
                             <strong>信箱</strong>&nbsp;tsaihsiang2@gmail.com
                         </li>
                         <li>
-                            <strong>生日</strong>&nbsp;0929200289
+                            <strong>電話</strong>&nbsp;0929200289
                         </li>
                     </ul>
 
@@ -90,16 +90,16 @@ const AboutDetail = () => {
                             </div>
                         </div>
                         <p className={styles.skillText}>
-                            擁有HTML、CSS、JavaScript靜態網站，以及React框架動態網站的基礎開發經驗。透過線上課程正在學習MERN Stack。
+                            擁有HTML、CSS、JavaScript靜態網站，以及React框架動態網站的基礎開發經驗。目前正在學習MERN Stack等後台技術。
                         </p>
                     </div>
                     
                 </Col>
                 <Col md={{ span: 8 }} className={styles.iconItem}>
-                        <Icon width='3rem' icon='akar-icons:html-fill' />
+                        <Icon width='3rem' icon='simple-icons:swift' />
                         <strong style={{marginTop: '1rem'}}>Swift</strong>
                         <p className={styles.skillText}>
-                            社團課程中學過基礎語法，透過線上課程正在學習MVVM架構等。
+                            透過社團課程學習過基礎語法，目前正在自學MVVM架構等。
                         </p>
                     
                 </Col>
@@ -123,7 +123,7 @@ const AboutDetail = () => {
                     <Icon width='3rem' icon='bxl:figma' />
                     <strong style={{marginTop: '1rem'}}>Figma</strong>
                     <p className={styles.skillText}>
-                        透過學校課程和專題，擁有基礎的網頁UI設計經驗。
+                        藉由學校課程和專題，擁有基礎的網頁UI設計經驗。
                     </p>
                 </Col>
             </Row>

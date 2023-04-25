@@ -5,7 +5,8 @@ import styles from './projectItem.module.css'
 const ProjectItem = ({ project }) => {
     return (
         <div className={styles.item}>
-            <video width="100%" src={project.video} autoPlay loop controls muted playsInline />
+            <div style={{width: "100%", height:"0px",position: "relative",paddingBottom:"56.250%"}}><iframe src={project.video} width="100%" height="100%" allowFullScreen allow="autoplay" style={{width:"100%",height:"100%",position:"absolute",left:"0px",top:"0px",overflow:"hidden", border: "none"}}></iframe></div>
+            {/* <video width="100%" src={project.video} autoPlay loop controls muted playsInline /> */}
             <div className={styles.content}>
                 <div>
                     <h1 className={styles.title}>{project.name}</h1>
