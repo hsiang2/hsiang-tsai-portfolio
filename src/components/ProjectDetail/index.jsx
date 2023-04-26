@@ -30,13 +30,13 @@ const ProjectDetail = ({ project }) => {
             <div className={styles.button}>
                 {
                     !!project.link ?
-                    <a href={project.link}>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
                         <Button>前往網站</Button>
                     </a> :
                     <></>
                 }
                 
-                <a href={project.github}>
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Button>
                         <Icon icon='mdi:github' />
                         程式碼
