@@ -66,11 +66,11 @@
         "id": "6",
         "category": "其他作品",
         "name": "BobaHONG",
-        "description": "Unity 2D平台遊戲",
+        "description": "Unity 2D 平台遊戲",
         "video": "https://streamable.com/e/p5anjh",
         "year": "2022",
         "language": "C#",
-        "background": "學校數位遊戲課程四人分組專題，我負責設計插圖和部分程式。遊戲玩法為控制珍珠逃離女巫吸管的追逐，並在每關蒐集三個需要的材料，以製成最終解藥，讓珍珠成功變回人類",
+        "background": "學校數位遊戲課程四人分組專題，我負責設計插圖和部分程式。遊戲玩法為控制珍珠逃離女巫吸管的追逐，並在每關蒐集三個需要的材料，以製成最終解藥，讓珍珠成功變回人類。",
         "skill": "Unity 2D 遊戲，我的主要工作為使用 Photoshop 繪製素材，程式部分負責實現吸管追逐玩家的功能以及鏡頭動態。",
         "github": "https://github.com/mmleelee/game_bobahong"
     }
