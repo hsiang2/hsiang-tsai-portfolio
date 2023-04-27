@@ -90,7 +90,7 @@ const AboutDetail = () => {
                             </div>
                         </div>
                         <p className={styles.skillText}>
-                            擁有 HTML、CSS、JavaScript 靜態網站，以及 React 框架動態網站的基礎開發經驗。目前正在學習 MERN Stack 等後台技術。
+                            擁有 HTML、CSS、JavaScript 靜態 RWD 網站，以及 React 框架動態網站的基礎開發經驗。目前正在學習 MERN Stack 等後台技術。
                         </p>
                     </div>
                     
